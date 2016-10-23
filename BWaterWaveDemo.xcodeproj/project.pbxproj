@@ -806,7 +806,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = F8GY9XXT4N;
-				GCC_PREFIX_HEADER = /Users/bill/Desktop/BWaterWaveDemo/BWaterWaveDemo/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = /Users/bill/WaterWaveatDemo/BWaterWaveDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = BWaterWaveDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.BWaterWaveDemo;
@@ -819,7 +819,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = F8GY9XXT4N;
-				GCC_PREFIX_HEADER = /Users/bill/Desktop/BWaterWaveDemo/BWaterWaveDemo/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = /Users/bill/WaterWaveatDemo/BWaterWaveDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = BWaterWaveDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.BWaterWaveDemo;
@@ -896,6 +896,7 @@
 				A97220BB1DBCA55A0063775F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A97220BC1DBCA55A0063775F /* Build configuration list for PBXNativeTarget "BWaterWaveDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -904,6 +905,7 @@
 				A97220BE1DBCA55A0063775F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A97220BF1DBCA55A0063775F /* Build configuration list for PBXNativeTarget "BWaterWaveDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -912,6 +914,7 @@
 				A97220C11DBCA55A0063775F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

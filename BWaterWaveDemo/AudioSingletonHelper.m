@@ -7,7 +7,6 @@
 //
 
 #import "AudioSingletonHelper.h"
-#import <AVFoundation/AVFoundation.h>
 
 @interface AudioSingletonHelper()<AVAudioPlayerDelegate>{
     

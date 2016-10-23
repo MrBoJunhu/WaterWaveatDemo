@@ -7,6 +7,7 @@
 //
 
 #import "MineViewController.h"
+
 #import "AudioSingletonHelper.h"
 
 #import "SecondViewController.h"
@@ -40,7 +41,14 @@ typedef NS_ENUM(NSUInteger, TimeStyle) {
 };
 
 
-@interface MineViewController ()<UITableViewDelegate, UITableViewDataSource>
+@interface MineViewController ()<UITableViewDelegate, UITableViewDataSource> {
+    
+    NSTimer   *voiceTimer; //定时器当锁屏时候暂停, 退后台暂停, 应用唤醒后继续
+    
+    
+    NSUInteger countNums;
+    
+}
 
 @property (weak, nonatomic) IBOutlet UITableView *TBV;
 
@@ -69,6 +77,14 @@ typedef NS_ENUM(NSUInteger, TimeStyle) {
     
     //鼓励语
     [self cofigurationFile];
+    
+    
+    // 定时器播放语音
+    countNums = 3;
+    
+    voiceTimer = [NSTimer scheduledTimerWithTimeInterval:16 target:self selector:@selector(countDown) userInfo:nil repeats:YES];
+    
+    [voiceTimer setFireDate:[NSDate distantFuture]];
 
 }
 
@@ -125,8 +141,11 @@ typedef NS_ENUM(NSUInteger, TimeStyle) {
 
     }else if (row == 1){
        
-        // 语音播报
-        [self playVoiceAciton];
+//        // 语音播报
+//        [self playVoiceAciton];
+        
+        [voiceTimer setFireDate:[NSDate  distantPast]];
+        
 
     }else if (row == 2){
         
@@ -154,6 +173,27 @@ typedef NS_ENUM(NSUInteger, TimeStyle) {
 
 
 #pragma mark - 顺序播放音频文件
+- (void)countDown {
+    
+    NSLog(@"倒计时: %lu", (unsigned long)countNums);
+
+    if (countNums > 0) {
+        
+        [self playVoiceAciton];
+        
+        countNums -- ;
+        
+    }else{
+        
+        [voiceTimer setFireDate:[NSDate distantFuture]];
+        
+        countNums = 3;
+        
+    }
+    
+}
+
+
 - (void)cofigurationFile {
     
     _encourageArray = @[@"好棒", @"加油哦", @"坚持哦", @"太棒了", @"真厉害"];
