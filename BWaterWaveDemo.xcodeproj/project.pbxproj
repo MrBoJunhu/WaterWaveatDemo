@@ -1,0 +1,919 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A97220911DBCA55A0063775F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A97220901DBCA55A0063775F /* main.m */; };
+		A97220941DBCA55A0063775F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A97220931DBCA55A0063775F /* AppDelegate.m */; };
+		A97220971DBCA55A0063775F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A97220961DBCA55A0063775F /* ViewController.m */; };
+		A972209A1DBCA55A0063775F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A97220981DBCA55A0063775F /* Main.storyboard */; };
+		A972209C1DBCA55A0063775F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A972209B1DBCA55A0063775F /* Assets.xcassets */; };
+		A972209F1DBCA55A0063775F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A972209D1DBCA55A0063775F /* LaunchScreen.storyboard */; };
+		A97220AA1DBCA55A0063775F /* BWaterWaveDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A97220A91DBCA55A0063775F /* BWaterWaveDemoTests.m */; };
+		A97220B51DBCA55A0063775F /* BWaterWaveDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A97220B41DBCA55A0063775F /* BWaterWaveDemoUITests.m */; };
+		A97220EF1DBCA5FA0063775F /* 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A97220CA1DBCA5FA0063775F /* 1.mp3 */; };
+		A97220F01DBCA5FA0063775F /* 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A97220CB1DBCA5FA0063775F /* 2.mp3 */; };
+		A97220F11DBCA5FA0063775F /* 3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A97220CC1DBCA5FA0063775F /* 3.mp3 */; };
+		A97220F21DBCA5FA0063775F /* 4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A97220CD1DBCA5FA0063775F /* 4.mp3 */; };
+		A97220F31DBCA5FA0063775F /* 5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A97220CE1DBCA5FA0063775F /* 5.mp3 */; };
+		A97220F41DBCA5FA0063775F /* 6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A97220CF1DBCA5FA0063775F /* 6.mp3 */; };
+		A97220F51DBCA5FA0063775F /* 7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A97220D01DBCA5FA0063775F /* 7.mp3 */; };
+		A97220F61DBCA5FA0063775F /* 8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A97220D11DBCA5FA0063775F /* 8.mp3 */; };
+		A97220F71DBCA5FA0063775F /* 9.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A97220D21DBCA5FA0063775F /* 9.mp3 */; };
+		A97220F81DBCA5FA0063775F /* 10.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A97220D31DBCA5FA0063775F /* 10.mp3 */; };
+		A97220F91DBCA5FA0063775F /* 20.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A97220D41DBCA5FA0063775F /* 20.mp3 */; };
+		A97220FA1DBCA5FA0063775F /* 30.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A97220D51DBCA5FA0063775F /* 30.mp3 */; };
+		A97220FB1DBCA5FA0063775F /* 40.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A97220D61DBCA5FA0063775F /* 40.mp3 */; };
+		A97220FC1DBCA5FA0063775F /* 50.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A97220D71DBCA5FA0063775F /* 50.mp3 */; };
+		A97220FD1DBCA5FA0063775F /* 60.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A97220D81DBCA5FA0063775F /* 60.mp3 */; };
+		A97220FE1DBCA5FA0063775F /* 70.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A97220D91DBCA5FA0063775F /* 70.mp3 */; };
+		A97220FF1DBCA5FA0063775F /* 80.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A97220DA1DBCA5FA0063775F /* 80.mp3 */; };
+		A97221001DBCA5FA0063775F /* 90.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A97220DB1DBCA5FA0063775F /* 90.mp3 */; };
+		A97221011DBCA5FA0063775F /* 倒计时.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A97220DC1DBCA5FA0063775F /* 倒计时.mp3 */; };
+		A97221021DBCA5FA0063775F /* 分钟.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A97220DD1DBCA5FA0063775F /* 分钟.mp3 */; };
+		A97221031DBCA5FA0063775F /* 公里.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A97220DE1DBCA5FA0063775F /* 公里.mp3 */; };
+		A97221041DBCA5FA0063775F /* 好棒.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A97220DF1DBCA5FA0063775F /* 好棒.mp3 */; };
+		A97221051DBCA5FA0063775F /* 加油哦.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A97220E01DBCA5FA0063775F /* 加油哦.mp3 */; };
+		A97221061DBCA5FA0063775F /* 坚持哦.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A97220E11DBCA5FA0063775F /* 坚持哦.mp3 */; };
+		A97221071DBCA5FA0063775F /* 开始运动.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A97220E21DBCA5FA0063775F /* 开始运动.mp3 */; };
+		A97221081DBCA5FA0063775F /* 秒.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A97220E31DBCA5FA0063775F /* 秒.mp3 */; };
+		A97221091DBCA5FA0063775F /* 您已运动.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A97220E41DBCA5FA0063775F /* 您已运动.mp3 */; };
+		A972210A1DBCA5FA0063775F /* 太棒了.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A97220E51DBCA5FA0063775F /* 太棒了.mp3 */; };
+		A972210B1DBCA5FA0063775F /* 小时.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A97220E61DBCA5FA0063775F /* 小时.mp3 */; };
+		A972210C1DBCA5FA0063775F /* 信号弱.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A97220E71DBCA5FA0063775F /* 信号弱.mp3 */; };
+		A972210D1DBCA5FA0063775F /* 用时.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A97220E81DBCA5FA0063775F /* 用时.mp3 */; };
+		A972210E1DBCA5FA0063775F /* 运动已恢复.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A97220E91DBCA5FA0063775F /* 运动已恢复.mp3 */; };
+		A972210F1DBCA5FA0063775F /* 运动已结束.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A97220EA1DBCA5FA0063775F /* 运动已结束.mp3 */; };
+		A97221101DBCA5FA0063775F /* 运动已暂停.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A97220EB1DBCA5FA0063775F /* 运动已暂停.mp3 */; };
+		A97221111DBCA5FA0063775F /* 运动准备.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A97220EC1DBCA5FA0063775F /* 运动准备.mp3 */; };
+		A97221121DBCA5FA0063775F /* 真厉害.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A97220ED1DBCA5FA0063775F /* 真厉害.mp3 */; };
+		A97221131DBCA5FA0063775F /* 最近一公里用时.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A97220EE1DBCA5FA0063775F /* 最近一公里用时.mp3 */; };
+		A97221151DBCA6020063775F /* ball.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A97221141DBCA6020063775F /* ball.jpg */; };
+		A97221191DBCA63C0063775F /* AudioSingletonHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A97221181DBCA63C0063775F /* AudioSingletonHelper.m */; };
+		A972211C1DBCA7250063775F /* UIColor+VJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A972211B1DBCA7250063775F /* UIColor+VJExtension.m */; };
+		A972211F1DBCA7340063775F /* RipplesView.m in Sources */ = {isa = PBXBuildFile; fileRef = A972211E1DBCA7340063775F /* RipplesView.m */; };
+		A97221221DBCA7430063775F /* UITabBar+UITabBar_Badge.m in Sources */ = {isa = PBXBuildFile; fileRef = A97221211DBCA7430063775F /* UITabBar+UITabBar_Badge.m */; };
+		A97221251DBCA74F0063775F /* WaterWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = A97221241DBCA74F0063775F /* WaterWaveView.m */; };
+		A97221281DBCA7620063775F /* YYWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = A97221271DBCA7620063775F /* YYWeakProxy.m */; };
+		A972212E1DBCA7910063775F /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A972212D1DBCA7910063775F /* BaseViewController.m */; };
+		A97221311DBCA7A20063775F /* BSDemoNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A97221301DBCA7A20063775F /* BSDemoNavigationController.m */; };
+		A97221341DBCA7C60063775F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A97221331DBCA7C60063775F /* AVFoundation.framework */; };
+		A97221391DBCA9F00063775F /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A97221381DBCA9F00063775F /* FirstViewController.m */; };
+		A972213C1DBCAAE90063775F /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A972213B1DBCAAE90063775F /* HomePageViewController.m */; };
+		A972213F1DBCAAF20063775F /* FindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A972213E1DBCAAF20063775F /* FindViewController.m */; };
+		A97221421DBCAAFC0063775F /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A97221411DBCAAFC0063775F /* MineViewController.m */; };
+		A97221471DBCAC030063775F /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A97221461DBCAC030063775F /* SecondViewController.m */; };
+		A972214A1DBCAC0C0063775F /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A97221491DBCAC0C0063775F /* ThirdViewController.m */; };
+		A972214E1DBCADBC0063775F /* MyTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A972214D1DBCADBC0063775F /* MyTabbarController.m */; };
+		A97221531DBCCED10063775F /* ShowRedBadgeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A97221521DBCCED10063775F /* ShowRedBadgeHelper.m */; };
+		A97221561DBCDDBF0063775F /* LXWaveProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = A97221551DBCDDBF0063775F /* LXWaveProgressView.m */; };
+		A97221591DBCE1D80063775F /* PreviewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A97221581DBCE1D80063775F /* PreviewManager.m */; };
+		A972215C1DBCE4C10063775F /* PictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A972215B1DBCE4C10063775F /* PictureViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A97220A61DBCA55A0063775F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A97220841DBCA5580063775F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A972208B1DBCA5580063775F;
+			remoteInfo = BWaterWaveDemo;
+		};
+		A97220B11DBCA55A0063775F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A97220841DBCA5580063775F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A972208B1DBCA5580063775F;
+			remoteInfo = BWaterWaveDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A972208C1DBCA55A0063775F /* BWaterWaveDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BWaterWaveDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A97220901DBCA55A0063775F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A97220921DBCA55A0063775F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A97220931DBCA55A0063775F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A97220951DBCA55A0063775F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A97220961DBCA55A0063775F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A97220991DBCA55A0063775F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A972209B1DBCA55A0063775F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A972209E1DBCA55A0063775F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A97220A01DBCA55A0063775F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A97220A51DBCA55A0063775F /* BWaterWaveDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BWaterWaveDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A97220A91DBCA55A0063775F /* BWaterWaveDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWaterWaveDemoTests.m; sourceTree = "<group>"; };
+		A97220AB1DBCA55A0063775F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A97220B01DBCA55A0063775F /* BWaterWaveDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BWaterWaveDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A97220B41DBCA55A0063775F /* BWaterWaveDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWaterWaveDemoUITests.m; sourceTree = "<group>"; };
+		A97220B61DBCA55A0063775F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A97220CA1DBCA5FA0063775F /* 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 1.mp3; sourceTree = "<group>"; };
+		A97220CB1DBCA5FA0063775F /* 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 2.mp3; sourceTree = "<group>"; };
+		A97220CC1DBCA5FA0063775F /* 3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 3.mp3; sourceTree = "<group>"; };
+		A97220CD1DBCA5FA0063775F /* 4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 4.mp3; sourceTree = "<group>"; };
+		A97220CE1DBCA5FA0063775F /* 5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 5.mp3; sourceTree = "<group>"; };
+		A97220CF1DBCA5FA0063775F /* 6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 6.mp3; sourceTree = "<group>"; };
+		A97220D01DBCA5FA0063775F /* 7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 7.mp3; sourceTree = "<group>"; };
+		A97220D11DBCA5FA0063775F /* 8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 8.mp3; sourceTree = "<group>"; };
+		A97220D21DBCA5FA0063775F /* 9.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 9.mp3; sourceTree = "<group>"; };
+		A97220D31DBCA5FA0063775F /* 10.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 10.mp3; sourceTree = "<group>"; };
+		A97220D41DBCA5FA0063775F /* 20.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 20.mp3; sourceTree = "<group>"; };
+		A97220D51DBCA5FA0063775F /* 30.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 30.mp3; sourceTree = "<group>"; };
+		A97220D61DBCA5FA0063775F /* 40.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 40.mp3; sourceTree = "<group>"; };
+		A97220D71DBCA5FA0063775F /* 50.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 50.mp3; sourceTree = "<group>"; };
+		A97220D81DBCA5FA0063775F /* 60.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 60.mp3; sourceTree = "<group>"; };
+		A97220D91DBCA5FA0063775F /* 70.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 70.mp3; sourceTree = "<group>"; };
+		A97220DA1DBCA5FA0063775F /* 80.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 80.mp3; sourceTree = "<group>"; };
+		A97220DB1DBCA5FA0063775F /* 90.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 90.mp3; sourceTree = "<group>"; };
+		A97220DC1DBCA5FA0063775F /* 倒计时.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "倒计时.mp3"; sourceTree = "<group>"; };
+		A97220DD1DBCA5FA0063775F /* 分钟.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "分钟.mp3"; sourceTree = "<group>"; };
+		A97220DE1DBCA5FA0063775F /* 公里.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "公里.mp3"; sourceTree = "<group>"; };
+		A97220DF1DBCA5FA0063775F /* 好棒.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "好棒.mp3"; sourceTree = "<group>"; };
+		A97220E01DBCA5FA0063775F /* 加油哦.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "加油哦.mp3"; sourceTree = "<group>"; };
+		A97220E11DBCA5FA0063775F /* 坚持哦.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "坚持哦.mp3"; sourceTree = "<group>"; };
+		A97220E21DBCA5FA0063775F /* 开始运动.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "开始运动.mp3"; sourceTree = "<group>"; };
+		A97220E31DBCA5FA0063775F /* 秒.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "秒.mp3"; sourceTree = "<group>"; };
+		A97220E41DBCA5FA0063775F /* 您已运动.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "您已运动.mp3"; sourceTree = "<group>"; };
+		A97220E51DBCA5FA0063775F /* 太棒了.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "太棒了.mp3"; sourceTree = "<group>"; };
+		A97220E61DBCA5FA0063775F /* 小时.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "小时.mp3"; sourceTree = "<group>"; };
+		A97220E71DBCA5FA0063775F /* 信号弱.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "信号弱.mp3"; sourceTree = "<group>"; };
+		A97220E81DBCA5FA0063775F /* 用时.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "用时.mp3"; sourceTree = "<group>"; };
+		A97220E91DBCA5FA0063775F /* 运动已恢复.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "运动已恢复.mp3"; sourceTree = "<group>"; };
+		A97220EA1DBCA5FA0063775F /* 运动已结束.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "运动已结束.mp3"; sourceTree = "<group>"; };
+		A97220EB1DBCA5FA0063775F /* 运动已暂停.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "运动已暂停.mp3"; sourceTree = "<group>"; };
+		A97220EC1DBCA5FA0063775F /* 运动准备.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "运动准备.mp3"; sourceTree = "<group>"; };
+		A97220ED1DBCA5FA0063775F /* 真厉害.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "真厉害.mp3"; sourceTree = "<group>"; };
+		A97220EE1DBCA5FA0063775F /* 最近一公里用时.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "最近一公里用时.mp3"; sourceTree = "<group>"; };
+		A97221141DBCA6020063775F /* ball.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ball.jpg; sourceTree = "<group>"; };
+		A97221171DBCA63C0063775F /* AudioSingletonHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioSingletonHelper.h; sourceTree = "<group>"; };
+		A97221181DBCA63C0063775F /* AudioSingletonHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioSingletonHelper.m; sourceTree = "<group>"; };
+		A972211A1DBCA7250063775F /* UIColor+VJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+VJExtension.h"; sourceTree = "<group>"; };
+		A972211B1DBCA7250063775F /* UIColor+VJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+VJExtension.m"; sourceTree = "<group>"; };
+		A972211D1DBCA7340063775F /* RipplesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RipplesView.h; sourceTree = "<group>"; };
+		A972211E1DBCA7340063775F /* RipplesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RipplesView.m; sourceTree = "<group>"; };
+		A97221201DBCA7430063775F /* UITabBar+UITabBar_Badge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+UITabBar_Badge.h"; sourceTree = "<group>"; };
+		A97221211DBCA7430063775F /* UITabBar+UITabBar_Badge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+UITabBar_Badge.m"; sourceTree = "<group>"; };
+		A97221231DBCA74F0063775F /* WaterWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterWaveView.h; sourceTree = "<group>"; };
+		A97221241DBCA74F0063775F /* WaterWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterWaveView.m; sourceTree = "<group>"; };
+		A97221261DBCA7620063775F /* YYWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYWeakProxy.h; sourceTree = "<group>"; };
+		A97221271DBCA7620063775F /* YYWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYWeakProxy.m; sourceTree = "<group>"; };
+		A972212C1DBCA7910063775F /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		A972212D1DBCA7910063775F /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		A972212F1DBCA7A20063775F /* BSDemoNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDemoNavigationController.h; sourceTree = "<group>"; };
+		A97221301DBCA7A20063775F /* BSDemoNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDemoNavigationController.m; sourceTree = "<group>"; };
+		A97221331DBCA7C60063775F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A97221371DBCA9F00063775F /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		A97221381DBCA9F00063775F /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		A972213A1DBCAAE90063775F /* HomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
+		A972213B1DBCAAE90063775F /* HomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
+		A972213D1DBCAAF20063775F /* FindViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindViewController.h; sourceTree = "<group>"; };
+		A972213E1DBCAAF20063775F /* FindViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindViewController.m; sourceTree = "<group>"; };
+		A97221401DBCAAFC0063775F /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		A97221411DBCAAFC0063775F /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		A97221441DBCAB1F0063775F /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		A97221451DBCAC030063775F /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		A97221461DBCAC030063775F /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		A97221481DBCAC0C0063775F /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		A97221491DBCAC0C0063775F /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		A972214B1DBCAC240063775F /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		A972214C1DBCADBC0063775F /* MyTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTabbarController.h; sourceTree = "<group>"; };
+		A972214D1DBCADBC0063775F /* MyTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTabbarController.m; sourceTree = "<group>"; };
+		A97221501DBCCDC10063775F /* ConfigurationHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigurationHeader.h; sourceTree = "<group>"; };
+		A97221511DBCCED10063775F /* ShowRedBadgeHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowRedBadgeHelper.h; sourceTree = "<group>"; };
+		A97221521DBCCED10063775F /* ShowRedBadgeHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowRedBadgeHelper.m; sourceTree = "<group>"; };
+		A97221541DBCDDBF0063775F /* LXWaveProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXWaveProgressView.h; sourceTree = "<group>"; };
+		A97221551DBCDDBF0063775F /* LXWaveProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXWaveProgressView.m; sourceTree = "<group>"; };
+		A97221571DBCE1D80063775F /* PreviewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreviewManager.h; sourceTree = "<group>"; };
+		A97221581DBCE1D80063775F /* PreviewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreviewManager.m; sourceTree = "<group>"; };
+		A972215A1DBCE4C10063775F /* PictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureViewController.h; sourceTree = "<group>"; };
+		A972215B1DBCE4C10063775F /* PictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictureViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A97220891DBCA5580063775F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A97221341DBCA7C60063775F /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A97220A21DBCA55A0063775F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A97220AD1DBCA55A0063775F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A97220831DBCA5580063775F = {
+			isa = PBXGroup;
+			children = (
+				A972208E1DBCA55A0063775F /* BWaterWaveDemo */,
+				A97220A81DBCA55A0063775F /* BWaterWaveDemoTests */,
+				A97220B31DBCA55A0063775F /* BWaterWaveDemoUITests */,
+				A972208D1DBCA55A0063775F /* Products */,
+				A97221321DBCA7C60063775F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A972208D1DBCA55A0063775F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A972208C1DBCA55A0063775F /* BWaterWaveDemo.app */,
+				A97220A51DBCA55A0063775F /* BWaterWaveDemoTests.xctest */,
+				A97220B01DBCA55A0063775F /* BWaterWaveDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A972208E1DBCA55A0063775F /* BWaterWaveDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A97221431DBCAB0B0063775F /* PrefixHeader */,
+				A97221161DBCA6120063775F /* HelperFile */,
+				A97220C71DBCA5C10063775F /* CustomView */,
+				A97220C61DBCA5B40063775F /* RecourceFile */,
+				A97220C51DBCA5A90063775F /* ConfigurationFile */,
+				A97221351DBCA9830063775F /* ViewControllers */,
+				A97220921DBCA55A0063775F /* AppDelegate.h */,
+				A97220931DBCA55A0063775F /* AppDelegate.m */,
+				A97220951DBCA55A0063775F /* ViewController.h */,
+				A97220961DBCA55A0063775F /* ViewController.m */,
+				A97220981DBCA55A0063775F /* Main.storyboard */,
+				A972209B1DBCA55A0063775F /* Assets.xcassets */,
+				A972209D1DBCA55A0063775F /* LaunchScreen.storyboard */,
+				A97220A01DBCA55A0063775F /* Info.plist */,
+				A972208F1DBCA55A0063775F /* Supporting Files */,
+			);
+			path = BWaterWaveDemo;
+			sourceTree = "<group>";
+		};
+		A972208F1DBCA55A0063775F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A97220901DBCA55A0063775F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A97220A81DBCA55A0063775F /* BWaterWaveDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A97220A91DBCA55A0063775F /* BWaterWaveDemoTests.m */,
+				A97220AB1DBCA55A0063775F /* Info.plist */,
+			);
+			path = BWaterWaveDemoTests;
+			sourceTree = "<group>";
+		};
+		A97220B31DBCA55A0063775F /* BWaterWaveDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A97220B41DBCA55A0063775F /* BWaterWaveDemoUITests.m */,
+				A97220B61DBCA55A0063775F /* Info.plist */,
+			);
+			path = BWaterWaveDemoUITests;
+			sourceTree = "<group>";
+		};
+		A97220C21DBCA57D0063775F /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A972214C1DBCADBC0063775F /* MyTabbarController.h */,
+				A972214D1DBCADBC0063775F /* MyTabbarController.m */,
+				A972212F1DBCA7A20063775F /* BSDemoNavigationController.h */,
+				A97221301DBCA7A20063775F /* BSDemoNavigationController.m */,
+				A972212C1DBCA7910063775F /* BaseViewController.h */,
+				A972212D1DBCA7910063775F /* BaseViewController.m */,
+				A97220C41DBCA5940063775F /* 语音 */,
+				A97220C31DBCA58A0063775F /* 侧滑 */,
+			);
+			name = BaseViewController;
+			sourceTree = "<group>";
+		};
+		A97220C31DBCA58A0063775F /* 侧滑 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "侧滑";
+			sourceTree = "<group>";
+		};
+		A97220C41DBCA5940063775F /* 语音 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "语音";
+			sourceTree = "<group>";
+		};
+		A97220C51DBCA5A90063775F /* ConfigurationFile */ = {
+			isa = PBXGroup;
+			children = (
+				A97221501DBCCDC10063775F /* ConfigurationHeader.h */,
+			);
+			name = ConfigurationFile;
+			sourceTree = "<group>";
+		};
+		A97220C61DBCA5B40063775F /* RecourceFile */ = {
+			isa = PBXGroup;
+			children = (
+				A97220C91DBCA5DC0063775F /* PhotoFile */,
+				A97220C81DBCA5D20063775F /* VoiceFile */,
+			);
+			name = RecourceFile;
+			sourceTree = "<group>";
+		};
+		A97220C71DBCA5C10063775F /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				A97221541DBCDDBF0063775F /* LXWaveProgressView.h */,
+				A97221551DBCDDBF0063775F /* LXWaveProgressView.m */,
+				A97221261DBCA7620063775F /* YYWeakProxy.h */,
+				A97221271DBCA7620063775F /* YYWeakProxy.m */,
+				A97221231DBCA74F0063775F /* WaterWaveView.h */,
+				A97221241DBCA74F0063775F /* WaterWaveView.m */,
+				A97221201DBCA7430063775F /* UITabBar+UITabBar_Badge.h */,
+				A97221211DBCA7430063775F /* UITabBar+UITabBar_Badge.m */,
+				A972211D1DBCA7340063775F /* RipplesView.h */,
+				A972211E1DBCA7340063775F /* RipplesView.m */,
+			);
+			name = CustomView;
+			sourceTree = "<group>";
+		};
+		A97220C81DBCA5D20063775F /* VoiceFile */ = {
+			isa = PBXGroup;
+			children = (
+				A97220CA1DBCA5FA0063775F /* 1.mp3 */,
+				A97220CB1DBCA5FA0063775F /* 2.mp3 */,
+				A97220CC1DBCA5FA0063775F /* 3.mp3 */,
+				A97220CD1DBCA5FA0063775F /* 4.mp3 */,
+				A97220CE1DBCA5FA0063775F /* 5.mp3 */,
+				A97220CF1DBCA5FA0063775F /* 6.mp3 */,
+				A97220D01DBCA5FA0063775F /* 7.mp3 */,
+				A97220D11DBCA5FA0063775F /* 8.mp3 */,
+				A97220D21DBCA5FA0063775F /* 9.mp3 */,
+				A97220D31DBCA5FA0063775F /* 10.mp3 */,
+				A97220D41DBCA5FA0063775F /* 20.mp3 */,
+				A97220D51DBCA5FA0063775F /* 30.mp3 */,
+				A97220D61DBCA5FA0063775F /* 40.mp3 */,
+				A97220D71DBCA5FA0063775F /* 50.mp3 */,
+				A97220D81DBCA5FA0063775F /* 60.mp3 */,
+				A97220D91DBCA5FA0063775F /* 70.mp3 */,
+				A97220DA1DBCA5FA0063775F /* 80.mp3 */,
+				A97220DB1DBCA5FA0063775F /* 90.mp3 */,
+				A97220DC1DBCA5FA0063775F /* 倒计时.mp3 */,
+				A97220DD1DBCA5FA0063775F /* 分钟.mp3 */,
+				A97220DE1DBCA5FA0063775F /* 公里.mp3 */,
+				A97220DF1DBCA5FA0063775F /* 好棒.mp3 */,
+				A97220E01DBCA5FA0063775F /* 加油哦.mp3 */,
+				A97220E11DBCA5FA0063775F /* 坚持哦.mp3 */,
+				A97220E21DBCA5FA0063775F /* 开始运动.mp3 */,
+				A97220E31DBCA5FA0063775F /* 秒.mp3 */,
+				A97220E41DBCA5FA0063775F /* 您已运动.mp3 */,
+				A97220E51DBCA5FA0063775F /* 太棒了.mp3 */,
+				A97220E61DBCA5FA0063775F /* 小时.mp3 */,
+				A97220E71DBCA5FA0063775F /* 信号弱.mp3 */,
+				A97220E81DBCA5FA0063775F /* 用时.mp3 */,
+				A97220E91DBCA5FA0063775F /* 运动已恢复.mp3 */,
+				A97220EA1DBCA5FA0063775F /* 运动已结束.mp3 */,
+				A97220EB1DBCA5FA0063775F /* 运动已暂停.mp3 */,
+				A97220EC1DBCA5FA0063775F /* 运动准备.mp3 */,
+				A97220ED1DBCA5FA0063775F /* 真厉害.mp3 */,
+				A97220EE1DBCA5FA0063775F /* 最近一公里用时.mp3 */,
+			);
+			name = VoiceFile;
+			sourceTree = "<group>";
+		};
+		A97220C91DBCA5DC0063775F /* PhotoFile */ = {
+			isa = PBXGroup;
+			children = (
+				A97221141DBCA6020063775F /* ball.jpg */,
+			);
+			name = PhotoFile;
+			sourceTree = "<group>";
+		};
+		A97221161DBCA6120063775F /* HelperFile */ = {
+			isa = PBXGroup;
+			children = (
+				A97221571DBCE1D80063775F /* PreviewManager.h */,
+				A97221581DBCE1D80063775F /* PreviewManager.m */,
+				A972211A1DBCA7250063775F /* UIColor+VJExtension.h */,
+				A972211B1DBCA7250063775F /* UIColor+VJExtension.m */,
+				A97221171DBCA63C0063775F /* AudioSingletonHelper.h */,
+				A97221181DBCA63C0063775F /* AudioSingletonHelper.m */,
+				A97221511DBCCED10063775F /* ShowRedBadgeHelper.h */,
+				A97221521DBCCED10063775F /* ShowRedBadgeHelper.m */,
+			);
+			name = HelperFile;
+			sourceTree = "<group>";
+		};
+		A97221321DBCA7C60063775F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A97221331DBCA7C60063775F /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A97221351DBCA9830063775F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A97221361DBCA9AC0063775F /* TabBarConrollers */,
+				A97220C21DBCA57D0063775F /* BaseViewController */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A97221361DBCA9AC0063775F /* TabBarConrollers */ = {
+			isa = PBXGroup;
+			children = (
+				A97221371DBCA9F00063775F /* FirstViewController.h */,
+				A97221381DBCA9F00063775F /* FirstViewController.m */,
+				A97221451DBCAC030063775F /* SecondViewController.h */,
+				A97221461DBCAC030063775F /* SecondViewController.m */,
+				A97221481DBCAC0C0063775F /* ThirdViewController.h */,
+				A97221491DBCAC0C0063775F /* ThirdViewController.m */,
+				A972213A1DBCAAE90063775F /* HomePageViewController.h */,
+				A972213B1DBCAAE90063775F /* HomePageViewController.m */,
+				A972213D1DBCAAF20063775F /* FindViewController.h */,
+				A972213E1DBCAAF20063775F /* FindViewController.m */,
+				A97221401DBCAAFC0063775F /* MineViewController.h */,
+				A97221411DBCAAFC0063775F /* MineViewController.m */,
+				A972215A1DBCE4C10063775F /* PictureViewController.h */,
+				A972215B1DBCE4C10063775F /* PictureViewController.m */,
+			);
+			name = TabBarConrollers;
+			sourceTree = "<group>";
+		};
+		A97221431DBCAB0B0063775F /* PrefixHeader */ = {
+			isa = PBXGroup;
+			children = (
+				A97221441DBCAB1F0063775F /* Header.h */,
+				A972214B1DBCAC240063775F /* PrefixHeader.pch */,
+			);
+			name = PrefixHeader;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A972208B1DBCA5580063775F /* BWaterWaveDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A97220B91DBCA55A0063775F /* Build configuration list for PBXNativeTarget "BWaterWaveDemo" */;
+			buildPhases = (
+				A97220881DBCA5580063775F /* Sources */,
+				A97220891DBCA5580063775F /* Frameworks */,
+				A972208A1DBCA5580063775F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BWaterWaveDemo;
+			productName = BWaterWaveDemo;
+			productReference = A972208C1DBCA55A0063775F /* BWaterWaveDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A97220A41DBCA55A0063775F /* BWaterWaveDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A97220BC1DBCA55A0063775F /* Build configuration list for PBXNativeTarget "BWaterWaveDemoTests" */;
+			buildPhases = (
+				A97220A11DBCA55A0063775F /* Sources */,
+				A97220A21DBCA55A0063775F /* Frameworks */,
+				A97220A31DBCA55A0063775F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A97220A71DBCA55A0063775F /* PBXTargetDependency */,
+			);
+			name = BWaterWaveDemoTests;
+			productName = BWaterWaveDemoTests;
+			productReference = A97220A51DBCA55A0063775F /* BWaterWaveDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A97220AF1DBCA55A0063775F /* BWaterWaveDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A97220BF1DBCA55A0063775F /* Build configuration list for PBXNativeTarget "BWaterWaveDemoUITests" */;
+			buildPhases = (
+				A97220AC1DBCA55A0063775F /* Sources */,
+				A97220AD1DBCA55A0063775F /* Frameworks */,
+				A97220AE1DBCA55A0063775F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A97220B21DBCA55A0063775F /* PBXTargetDependency */,
+			);
+			name = BWaterWaveDemoUITests;
+			productName = BWaterWaveDemoUITests;
+			productReference = A97220B01DBCA55A0063775F /* BWaterWaveDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A97220841DBCA5580063775F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = bill;
+				TargetAttributes = {
+					A972208B1DBCA5580063775F = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = F8GY9XXT4N;
+						ProvisioningStyle = Automatic;
+					};
+					A97220A41DBCA55A0063775F = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = F8GY9XXT4N;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A972208B1DBCA5580063775F;
+					};
+					A97220AF1DBCA55A0063775F = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = F8GY9XXT4N;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A972208B1DBCA5580063775F;
+					};
+				};
+			};
+			buildConfigurationList = A97220871DBCA5580063775F /* Build configuration list for PBXProject "BWaterWaveDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A97220831DBCA5580063775F;
+			productRefGroup = A972208D1DBCA55A0063775F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A972208B1DBCA5580063775F /* BWaterWaveDemo */,
+				A97220A41DBCA55A0063775F /* BWaterWaveDemoTests */,
+				A97220AF1DBCA55A0063775F /* BWaterWaveDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A972208A1DBCA5580063775F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A972210D1DBCA5FA0063775F /* 用时.mp3 in Resources */,
+				A97220FF1DBCA5FA0063775F /* 80.mp3 in Resources */,
+				A97221101DBCA5FA0063775F /* 运动已暂停.mp3 in Resources */,
+				A97220F81DBCA5FA0063775F /* 10.mp3 in Resources */,
+				A97220F71DBCA5FA0063775F /* 9.mp3 in Resources */,
+				A97221151DBCA6020063775F /* ball.jpg in Resources */,
+				A97220F61DBCA5FA0063775F /* 8.mp3 in Resources */,
+				A97221031DBCA5FA0063775F /* 公里.mp3 in Resources */,
+				A97221001DBCA5FA0063775F /* 90.mp3 in Resources */,
+				A97221131DBCA5FA0063775F /* 最近一公里用时.mp3 in Resources */,
+				A972210F1DBCA5FA0063775F /* 运动已结束.mp3 in Resources */,
+				A97220F31DBCA5FA0063775F /* 5.mp3 in Resources */,
+				A972210A1DBCA5FA0063775F /* 太棒了.mp3 in Resources */,
+				A97221011DBCA5FA0063775F /* 倒计时.mp3 in Resources */,
+				A972210B1DBCA5FA0063775F /* 小时.mp3 in Resources */,
+				A97221091DBCA5FA0063775F /* 您已运动.mp3 in Resources */,
+				A97220FC1DBCA5FA0063775F /* 50.mp3 in Resources */,
+				A972210E1DBCA5FA0063775F /* 运动已恢复.mp3 in Resources */,
+				A97220F91DBCA5FA0063775F /* 20.mp3 in Resources */,
+				A97220F11DBCA5FA0063775F /* 3.mp3 in Resources */,
+				A97220F51DBCA5FA0063775F /* 7.mp3 in Resources */,
+				A97221111DBCA5FA0063775F /* 运动准备.mp3 in Resources */,
+				A97220EF1DBCA5FA0063775F /* 1.mp3 in Resources */,
+				A97221121DBCA5FA0063775F /* 真厉害.mp3 in Resources */,
+				A97220FB1DBCA5FA0063775F /* 40.mp3 in Resources */,
+				A97220F41DBCA5FA0063775F /* 6.mp3 in Resources */,
+				A97221041DBCA5FA0063775F /* 好棒.mp3 in Resources */,
+				A972209F1DBCA55A0063775F /* LaunchScreen.storyboard in Resources */,
+				A97221071DBCA5FA0063775F /* 开始运动.mp3 in Resources */,
+				A97220FA1DBCA5FA0063775F /* 30.mp3 in Resources */,
+				A97220FE1DBCA5FA0063775F /* 70.mp3 in Resources */,
+				A97221021DBCA5FA0063775F /* 分钟.mp3 in Resources */,
+				A97220F01DBCA5FA0063775F /* 2.mp3 in Resources */,
+				A97221061DBCA5FA0063775F /* 坚持哦.mp3 in Resources */,
+				A97220F21DBCA5FA0063775F /* 4.mp3 in Resources */,
+				A972210C1DBCA5FA0063775F /* 信号弱.mp3 in Resources */,
+				A97221051DBCA5FA0063775F /* 加油哦.mp3 in Resources */,
+				A97221081DBCA5FA0063775F /* 秒.mp3 in Resources */,
+				A972209C1DBCA55A0063775F /* Assets.xcassets in Resources */,
+				A97220FD1DBCA5FA0063775F /* 60.mp3 in Resources */,
+				A972209A1DBCA55A0063775F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A97220A31DBCA55A0063775F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A97220AE1DBCA55A0063775F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A97220881DBCA5580063775F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A97220971DBCA55A0063775F /* ViewController.m in Sources */,
+				A972211C1DBCA7250063775F /* UIColor+VJExtension.m in Sources */,
+				A972212E1DBCA7910063775F /* BaseViewController.m in Sources */,
+				A97221221DBCA7430063775F /* UITabBar+UITabBar_Badge.m in Sources */,
+				A97221251DBCA74F0063775F /* WaterWaveView.m in Sources */,
+				A97220941DBCA55A0063775F /* AppDelegate.m in Sources */,
+				A972213C1DBCAAE90063775F /* HomePageViewController.m in Sources */,
+				A972214A1DBCAC0C0063775F /* ThirdViewController.m in Sources */,
+				A97221591DBCE1D80063775F /* PreviewManager.m in Sources */,
+				A97221281DBCA7620063775F /* YYWeakProxy.m in Sources */,
+				A97221391DBCA9F00063775F /* FirstViewController.m in Sources */,
+				A97221191DBCA63C0063775F /* AudioSingletonHelper.m in Sources */,
+				A972214E1DBCADBC0063775F /* MyTabbarController.m in Sources */,
+				A97221311DBCA7A20063775F /* BSDemoNavigationController.m in Sources */,
+				A972211F1DBCA7340063775F /* RipplesView.m in Sources */,
+				A97221471DBCAC030063775F /* SecondViewController.m in Sources */,
+				A97221421DBCAAFC0063775F /* MineViewController.m in Sources */,
+				A97220911DBCA55A0063775F /* main.m in Sources */,
+				A972213F1DBCAAF20063775F /* FindViewController.m in Sources */,
+				A97221561DBCDDBF0063775F /* LXWaveProgressView.m in Sources */,
+				A97221531DBCCED10063775F /* ShowRedBadgeHelper.m in Sources */,
+				A972215C1DBCE4C10063775F /* PictureViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A97220A11DBCA55A0063775F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A97220AA1DBCA55A0063775F /* BWaterWaveDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A97220AC1DBCA55A0063775F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A97220B51DBCA55A0063775F /* BWaterWaveDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A97220A71DBCA55A0063775F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A972208B1DBCA5580063775F /* BWaterWaveDemo */;
+			targetProxy = A97220A61DBCA55A0063775F /* PBXContainerItemProxy */;
+		};
+		A97220B21DBCA55A0063775F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A972208B1DBCA5580063775F /* BWaterWaveDemo */;
+			targetProxy = A97220B11DBCA55A0063775F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A97220981DBCA55A0063775F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A97220991DBCA55A0063775F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A972209D1DBCA55A0063775F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A972209E1DBCA55A0063775F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A97220B71DBCA55A0063775F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A97220B81DBCA55A0063775F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A97220BA1DBCA55A0063775F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F8GY9XXT4N;
+				GCC_PREFIX_HEADER = /Users/bill/Desktop/BWaterWaveDemo/BWaterWaveDemo/PrefixHeader.pch;
+				INFOPLIST_FILE = BWaterWaveDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.BWaterWaveDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A97220BB1DBCA55A0063775F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F8GY9XXT4N;
+				GCC_PREFIX_HEADER = /Users/bill/Desktop/BWaterWaveDemo/BWaterWaveDemo/PrefixHeader.pch;
+				INFOPLIST_FILE = BWaterWaveDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.BWaterWaveDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A97220BD1DBCA55A0063775F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = F8GY9XXT4N;
+				INFOPLIST_FILE = BWaterWaveDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.BWaterWaveDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BWaterWaveDemo.app/BWaterWaveDemo";
+			};
+			name = Debug;
+		};
+		A97220BE1DBCA55A0063775F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = F8GY9XXT4N;
+				INFOPLIST_FILE = BWaterWaveDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.BWaterWaveDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BWaterWaveDemo.app/BWaterWaveDemo";
+			};
+			name = Release;
+		};
+		A97220C01DBCA55A0063775F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = F8GY9XXT4N;
+				INFOPLIST_FILE = BWaterWaveDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.BWaterWaveDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BWaterWaveDemo;
+			};
+			name = Debug;
+		};
+		A97220C11DBCA55A0063775F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = F8GY9XXT4N;
+				INFOPLIST_FILE = BWaterWaveDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.BWaterWaveDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BWaterWaveDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A97220871DBCA5580063775F /* Build configuration list for PBXProject "BWaterWaveDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A97220B71DBCA55A0063775F /* Debug */,
+				A97220B81DBCA55A0063775F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A97220B91DBCA55A0063775F /* Build configuration list for PBXNativeTarget "BWaterWaveDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A97220BA1DBCA55A0063775F /* Debug */,
+				A97220BB1DBCA55A0063775F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A97220BC1DBCA55A0063775F /* Build configuration list for PBXNativeTarget "BWaterWaveDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A97220BD1DBCA55A0063775F /* Debug */,
+				A97220BE1DBCA55A0063775F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A97220BF1DBCA55A0063775F /* Build configuration list for PBXNativeTarget "BWaterWaveDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A97220C01DBCA55A0063775F /* Debug */,
+				A97220C11DBCA55A0063775F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A97220841DBCA5580063775F /* Project object */;
+}
