@@ -94,6 +94,16 @@ typedef NS_ENUM(NSUInteger, TimeStyle) {
     [super viewWillAppear:animated];
     
     self.title = @"我的";
+    
+}
+
+- (void)viewWillDisappear:(BOOL)animated {
+    
+    [super viewWillDisappear:animated];
+    
+    // 页面消失时候暂停定时器
+    [voiceTimer setFireDate:[NSDate distantFuture]];
+    
 }
 
 
@@ -141,11 +151,11 @@ typedef NS_ENUM(NSUInteger, TimeStyle) {
 
     }else if (row == 1){
        
-//        // 语音播报
+        // 语音播报
 //        [self playVoiceAciton];
         
+        // 定时器开启
         [voiceTimer setFireDate:[NSDate  distantPast]];
-        
 
     }else if (row == 2){
         
