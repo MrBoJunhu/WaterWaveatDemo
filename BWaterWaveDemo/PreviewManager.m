@@ -43,10 +43,15 @@ static CGRect oldframe;
     [backgroundView addGestureRecognizer:tap];
     
     [UIView animateWithDuration:0.3 animations:^{
-        imageView.frame=CGRectMake(0,([UIScreen mainScreen].bounds.size.height-image.size.height*[UIScreen mainScreen].bounds.size.width/image.size.width)/2, [UIScreen mainScreen].bounds.size.width, image.size.height*[UIScreen mainScreen].bounds.size.width/image.size.width);
-        backgroundView.alpha=1;
+       
+        imageView.frame = CGRectMake(0,([UIScreen mainScreen].bounds.size.height-image.size.height*[UIScreen mainScreen].bounds.size.width/image.size.width)/2, [UIScreen mainScreen].bounds.size.width, image.size.height*[UIScreen mainScreen].bounds.size.width/image.size.width);
+        
+        backgroundView.alpha = 1;
+    
     } completion:^(BOOL finished) {
         
+        
+    
     }];
     
     // 长按手势
@@ -58,7 +63,7 @@ static CGRect oldframe;
 
 +(void)hideImage:(UITapGestureRecognizer*)tap{
   
-    UIView *backgroundView = tap.view;
+    UIImageView *backgroundView = tap.view;
     
     UIImageView *imageView = (UIImageView*)[tap.view viewWithTag:1];
     

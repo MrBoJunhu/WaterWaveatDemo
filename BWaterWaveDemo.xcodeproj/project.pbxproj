@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A93731121DD41AC700986BC1 /* PreviewBigPhotoHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A93731111DD41AC700986BC1 /* PreviewBigPhotoHelper.m */; };
+		A93731161DD444DD00986BC1 /* SecondPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A93731151DD444DD00986BC1 /* SecondPictureViewController.m */; };
 		A97220911DBCA55A0063775F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A97220901DBCA55A0063775F /* main.m */; };
 		A97220941DBCA55A0063775F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A97220931DBCA55A0063775F /* AppDelegate.m */; };
 		A97220971DBCA55A0063775F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A97220961DBCA55A0063775F /* ViewController.m */; };
@@ -93,6 +95,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A93731101DD41AC600986BC1 /* PreviewBigPhotoHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreviewBigPhotoHelper.h; sourceTree = "<group>"; };
+		A93731111DD41AC700986BC1 /* PreviewBigPhotoHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreviewBigPhotoHelper.m; sourceTree = "<group>"; };
+		A93731141DD444DD00986BC1 /* SecondPictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondPictureViewController.h; sourceTree = "<group>"; };
+		A93731151DD444DD00986BC1 /* SecondPictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondPictureViewController.m; sourceTree = "<group>"; };
 		A972208C1DBCA55A0063775F /* BWaterWaveDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BWaterWaveDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A97220901DBCA55A0063775F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A97220921DBCA55A0063775F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -242,7 +248,7 @@
 			isa = PBXGroup;
 			children = (
 				A97221431DBCAB0B0063775F /* PrefixHeader */,
-				A97221161DBCA6120063775F /* HelperFile */,
+				A97221161DBCA6120063775F /* ToolFiles */,
 				A97220C71DBCA5C10063775F /* CustomView */,
 				A97220C61DBCA5B40063775F /* RecourceFile */,
 				A97220C51DBCA5A90063775F /* ConfigurationFile */,
@@ -401,7 +407,7 @@
 			name = PhotoFile;
 			sourceTree = "<group>";
 		};
-		A97221161DBCA6120063775F /* HelperFile */ = {
+		A97221161DBCA6120063775F /* ToolFiles */ = {
 			isa = PBXGroup;
 			children = (
 				A97221571DBCE1D80063775F /* PreviewManager.h */,
@@ -412,8 +418,10 @@
 				A97221181DBCA63C0063775F /* AudioSingletonHelper.m */,
 				A97221511DBCCED10063775F /* ShowRedBadgeHelper.h */,
 				A97221521DBCCED10063775F /* ShowRedBadgeHelper.m */,
+				A93731101DD41AC600986BC1 /* PreviewBigPhotoHelper.h */,
+				A93731111DD41AC700986BC1 /* PreviewBigPhotoHelper.m */,
 			);
-			name = HelperFile;
+			name = ToolFiles;
 			sourceTree = "<group>";
 		};
 		A97221321DBCA7C60063775F /* Frameworks */ = {
@@ -450,6 +458,8 @@
 				A97221411DBCAAFC0063775F /* MineViewController.m */,
 				A972215A1DBCE4C10063775F /* PictureViewController.h */,
 				A972215B1DBCE4C10063775F /* PictureViewController.m */,
+				A93731141DD444DD00986BC1 /* SecondPictureViewController.h */,
+				A93731151DD444DD00986BC1 /* SecondPictureViewController.m */,
 			);
 			name = TabBarConrollers;
 			sourceTree = "<group>";
@@ -644,6 +654,7 @@
 				A97221251DBCA74F0063775F /* WaterWaveView.m in Sources */,
 				A97220941DBCA55A0063775F /* AppDelegate.m in Sources */,
 				A972213C1DBCAAE90063775F /* HomePageViewController.m in Sources */,
+				A93731161DD444DD00986BC1 /* SecondPictureViewController.m in Sources */,
 				A972214A1DBCAC0C0063775F /* ThirdViewController.m in Sources */,
 				A97221591DBCE1D80063775F /* PreviewManager.m in Sources */,
 				A97221281DBCA7620063775F /* YYWeakProxy.m in Sources */,
@@ -652,6 +663,7 @@
 				A972214E1DBCADBC0063775F /* MyTabbarController.m in Sources */,
 				A97221311DBCA7A20063775F /* BSDemoNavigationController.m in Sources */,
 				A972211F1DBCA7340063775F /* RipplesView.m in Sources */,
+				A93731121DD41AC700986BC1 /* PreviewBigPhotoHelper.m in Sources */,
 				A97221471DBCAC030063775F /* SecondViewController.m in Sources */,
 				A97221421DBCAAFC0063775F /* MineViewController.m in Sources */,
 				A97220911DBCA55A0063775F /* main.m in Sources */,

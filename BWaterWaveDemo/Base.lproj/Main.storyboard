@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -53,20 +54,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ball.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="VeR-IZ-xTT"/>
-                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="banner" translatesAutoresizingMaskIntoConstraints="NO" id="vmj-mU-Pps"/>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ball.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="VeR-IZ-xTT">
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="220" id="Saq-JI-uE4"/>
+                                    <constraint firstAttribute="height" constant="177" id="d6R-BU-ndG"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="banner" translatesAutoresizingMaskIntoConstraints="NO" id="vmj-mU-Pps">
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="Ssp-Dm-r9C"/>
+                                    <constraint firstAttribute="height" constant="200" id="r3U-Gl-glh"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.4549019608" green="0.73333333329999995" blue="0.1647058824" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="VeR-IZ-xTT" firstAttribute="leading" secondItem="IG9-bq-kv2" secondAttribute="leading" id="2vu-6c-AxN"/>
-                            <constraint firstItem="PMO-1z-hWx" firstAttribute="top" secondItem="vmj-mU-Pps" secondAttribute="bottom" id="58M-5K-amb"/>
-                            <constraint firstItem="VeR-IZ-xTT" firstAttribute="top" secondItem="w4L-fK-wqN" secondAttribute="bottom" id="6Qa-Xw-n2X"/>
-                            <constraint firstItem="vmj-mU-Pps" firstAttribute="top" secondItem="VeR-IZ-xTT" secondAttribute="bottom" id="Drs-mf-HiE"/>
-                            <constraint firstAttribute="trailing" secondItem="VeR-IZ-xTT" secondAttribute="trailing" id="Dww-y6-PDP"/>
-                            <constraint firstAttribute="trailing" secondItem="vmj-mU-Pps" secondAttribute="trailing" id="GSl-wr-UUX"/>
-                            <constraint firstItem="vmj-mU-Pps" firstAttribute="height" secondItem="VeR-IZ-xTT" secondAttribute="height" id="UPM-7E-VGf"/>
-                            <constraint firstItem="vmj-mU-Pps" firstAttribute="width" secondItem="VeR-IZ-xTT" secondAttribute="width" id="Xe7-3c-thw"/>
-                            <constraint firstItem="vmj-mU-Pps" firstAttribute="leading" secondItem="IG9-bq-kv2" secondAttribute="leading" id="r10-Gl-vJp"/>
+                            <constraint firstItem="vmj-mU-Pps" firstAttribute="bottom" secondItem="PMO-1z-hWx" secondAttribute="top" constant="-10" id="9y3-3e-6y0"/>
+                            <constraint firstItem="VeR-IZ-xTT" firstAttribute="leading" secondItem="IG9-bq-kv2" secondAttribute="leading" constant="30" id="HiW-3x-jPY"/>
+                            <constraint firstItem="VeR-IZ-xTT" firstAttribute="top" secondItem="w4L-fK-wqN" secondAttribute="bottom" constant="70" id="NTX-iU-XUR"/>
+                            <constraint firstAttribute="trailing" secondItem="vmj-mU-Pps" secondAttribute="trailing" constant="20" id="f3b-Pd-Aka"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="发现" image="TabBar_Item_2" selectedImage="TabBar_Item_2_selected" id="uWj-6V-2Ii"/>
@@ -77,7 +85,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lf3-K5-Ugp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-930" y="1452"/>
+            <point key="canvasLocation" x="-930.39999999999998" y="1451.4242878560722"/>
         </scene>
         <!--首页-->
         <scene sceneID="bsl-dt-Fuq">
@@ -90,13 +98,25 @@
                     <view key="view" contentMode="scaleToFill" id="Q6n-Pw-cVx">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JYC-Bs-gEr">
+                                <state key="normal" title="next"/>
+                                <connections>
+                                    <segue destination="x8M-6J-enb" kind="show" id="PGV-vm-4KF"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="0.96470588239999999" green="0.4431372549" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Jk0-dN-cxB" firstAttribute="top" secondItem="JYC-Bs-gEr" secondAttribute="bottom" constant="50" id="0yI-Rs-Rx2"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="JYC-Bs-gEr" secondAttribute="trailing" constant="15" id="n1e-nw-rnk"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="首页" image="TabBar_Item_1" selectedImage="TabBar_Item_1_selected" id="KmB-Zr-xZt"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Evv-Mv-6BB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1559" y="1451"/>
+            <point key="canvasLocation" x="-2026" y="1451"/>
         </scene>
         <!--我的-->
         <scene sceneID="ALf-Ie-gJy">
@@ -168,12 +188,12 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.78282427730000004" blue="0.46681096370000003" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="L2R-x3-zqt" firstAttribute="top" secondItem="JKz-j8-3Ur" secondAttribute="bottom" id="BnW-gW-Iwc"/>
+                            <constraint firstItem="brv-EC-ANa" firstAttribute="top" secondItem="FBy-JK-FcE" secondAttribute="bottom" id="BaU-1u-DBL"/>
                             <constraint firstItem="5sf-dM-xnS" firstAttribute="centerY" secondItem="P06-lf-ckV" secondAttribute="centerY" id="ELz-4w-DIN"/>
                             <constraint firstItem="5sf-dM-xnS" firstAttribute="centerX" secondItem="P06-lf-ckV" secondAttribute="centerX" id="EUr-r5-WN3"/>
-                            <constraint firstItem="brv-EC-ANa" firstAttribute="top" secondItem="FBy-JK-FcE" secondAttribute="bottom" id="X0j-SY-73O"/>
                             <constraint firstItem="JKz-j8-3Ur" firstAttribute="leading" secondItem="P06-lf-ckV" secondAttribute="leading" id="hir-Nd-Gfe"/>
                             <constraint firstAttribute="trailing" secondItem="brv-EC-ANa" secondAttribute="trailing" id="oZP-Aw-2O5"/>
+                            <constraint firstItem="L2R-x3-zqt" firstAttribute="top" secondItem="JKz-j8-3Ur" secondAttribute="bottom" id="soZ-zT-CTH"/>
                         </constraints>
                     </view>
                     <connections>
@@ -185,6 +205,40 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aat-bo-f7O" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="400.80000000000001" y="1450.5247376311845"/>
+        </scene>
+        <!--Second Picture View Controller-->
+        <scene sceneID="Pxf-gb-Opy">
+            <objects>
+                <viewController storyboardIdentifier="SecondPictureViewController" id="x8M-6J-enb" customClass="SecondPictureViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-LB-4s7"/>
+                        <viewControllerLayoutGuide type="bottom" id="Uq4-be-yjY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5zN-dr-vWg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ball.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="TdM-IU-27R">
+                                <color key="backgroundColor" red="0.98039215690000003" green="0.63137254899999995" blue="0.1333333333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="131" id="UGA-B4-ktq"/>
+                                    <constraint firstAttribute="height" constant="90" id="mFw-Kr-mTc"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.90196078430000004" green="0.90196078430000004" blue="0.90196078430000004" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="TdM-IU-27R" secondAttribute="trailing" constant="20" id="2Ya-vS-LfV"/>
+                            <constraint firstItem="TdM-IU-27R" firstAttribute="top" secondItem="y3c-LB-4s7" secondAttribute="bottom" constant="100" id="vld-22-UTN"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="testImageView" destination="TdM-IU-27R" id="8L9-AO-vQ3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NnT-jz-I6B" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2026" y="2186"/>
         </scene>
         <!--My Tabbar Controller-->
         <scene sceneID="svm-mC-VNv">

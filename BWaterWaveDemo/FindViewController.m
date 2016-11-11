@@ -10,12 +10,13 @@
 
 #import "PreviewManager.h"
 
+#import "PreviewBigPhotoHelper.h"
+
 @interface FindViewController ()
 
 @property (weak, nonatomic) IBOutlet UIImageView *firstImageV;
 
 @property (weak, nonatomic) IBOutlet UIImageView *secondImageV;
-
 
 @end
 
@@ -46,9 +47,13 @@
             
             [_firstImageV addGestureRecognizer:tapG];
             
+            _firstImageV.tag = i;
+            
         }else{
             
             [_secondImageV addGestureRecognizer:tapG];
+            
+            _secondImageV.tag = i;
             
         }
         
@@ -59,9 +64,15 @@
 
 - (void)showBigPhoto:(UITapGestureRecognizer *)tapG {
     
+//    UIImageView *currentImageV = (UIImageView *)tapG.view;
+//    
+//    [PreviewManager showImage:currentImageV];
+    
     UIImageView *currentImageV = (UIImageView *)tapG.view;
     
-    [PreviewManager showImage:currentImageV];
+    NSUInteger tag = currentImageV.tag;
+    
+    [[PreviewBigPhotoHelper sharePreviewBigPhotoHelper] showImageWithImagesArray:@[_firstImageV, _secondImageV] withImageIndex:tag];
     
 }
 

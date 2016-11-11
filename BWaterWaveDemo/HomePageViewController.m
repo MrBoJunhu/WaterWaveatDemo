@@ -8,7 +8,13 @@
 
 #import "HomePageViewController.h"
 #import "UITabBar+UITabBar_Badge.h"
-@interface HomePageViewController ()
+@interface HomePageViewController ()<UIScrollViewDelegate>
+
+// 测试缩放
+@property (nonatomic, strong) UIScrollView *SCV;
+
+@property (nonatomic, strong) UIImageView *imageV;
+
 
 @end
 
@@ -20,6 +26,8 @@
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(showRedBadge:) name:App_HasNewMsg object:nil];
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(hiddenRedBadge:) name:App_HasNoMsg object:nil];
+    
+    [self createSCVTest];
     
 }
 
@@ -52,6 +60,38 @@
     
     [self.tabBarController.tabBar hiddenBadgeOnItemIndex:1];
 
+}
+
+
+- (void)createSCVTest {
+    
+    _SCV = [[UIScrollView alloc] initWithFrame:self.view.bounds];
+    
+    [self.view addSubview:_SCV];
+    
+    UIImage *image = [UIImage imageNamed:@"ball.jpg"];
+    
+    _imageV = [[UIImageView alloc] initWithFrame:CGRectMake(20, 100, 200, 200)];
+    
+    _imageV.image = image;
+    
+    [_SCV addSubview:_imageV];
+    
+    _SCV.contentSize = _imageV.image.size;
+    
+    _SCV.delegate = self;
+    
+    _SCV.minimumZoomScale = 0.5;
+    
+    _SCV.maximumZoomScale = 3.0;
+    
+}
+
+#pragma mark - UIScrollView Delegate
+- (UIView *)viewForZoomingInScrollView:(UIScrollView *)scrollView{
+    
+    return _imageV;
+    
 }
 
 
